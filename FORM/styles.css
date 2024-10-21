@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainBody {
+  height: 720px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.inputError {
+  width: 200px;
+  height: 30px;
+  border: 2px solid red;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+#errMessage {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errMsg {
+  font-size: 16px;
+  color: red;
+}
+
+.successMsg {
+  font-size: 16px;
+  color: green;
+}
+
+/*^ -----------------------------------------  */
+
+.formBody {
+  border-radius: 20px;
+  height: 600px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.121);
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*^ -----------------------------------------  */
+
+.loginBody {
+  border-radius: 20px;
+  height: 400px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.121);
+}
+
+.loginform {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginform div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*^ -----------------------------------------  */
+
+#detailsBody {
+  height: 720px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+th,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="mainBody">
+      <div class="formBody">
+        <h1 class="heading">Registration Form</h1>
+        <form action="" onsubmit="submission(event)">
+          <div>
+            <label for="firstName"
+              >First Name<span class="errMsg">*</span> :
+            </label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Your First Name"
+              required
+            />
+          </div>
+          <div>
+            <label for="lastName"
+              >Last Name<span class="errMsg">*</span> :
+            </label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Your Last Name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email<span class="errMsg">*</span> : </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Id"
+              required
+            />
+          </div>
+          <div>
+            <label for="mobile"
+              >Mobile no<span class="errMsg">*</span> :
+            </label>
+            <input
+              type="tel"
+              name="mobile"
+              id="mobile"
+              placeholder="Your Mobile No."
+              required
+            />
+          </div>
+          <div>
+            <label for="password"
+              >Password<span class="errMsg">*</span> :
+            </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div>
+            <label for="cpassword"
+              >Confirm Password<span class="errMsg">*</span> :
+            </label>
+            <input
+              type="password"
+              name="cpassword"
+              id="cpassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+          <div id="errMessage"><p class="errMsg"></p></div>
+          <div>
+            <button type="submit">Submit</button>
+            <button><a href="./login.html">Login</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <button onclick="clrstrg()">Clear Storage</button>
+    <script src="./app.js"></script>
+  </body>
+</html>
